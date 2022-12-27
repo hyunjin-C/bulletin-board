@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>게시판 만들기</title>
+    <!-- css -->
     <link rel="stylesheet" href="../styles/header.css"/>
     <link rel="stylesheet" href="../styles/login.css"/>
+    <!-- js -->
+    <script src="../src/main.js" defer></script>
 </head>
 <body>
     <header class="header">
@@ -15,7 +18,7 @@
         </div> 
     </header>
 
-    <section class="login__box">
+    <form class="login__form">
         <div class="login__text">로그인</div>
         <div class="login">
             <div class="id">
@@ -26,13 +29,12 @@
             <div class="pwd">
                 <div class="pwd__text">비밀번호</div>
                 <input type="password" name="pwd" placeholder="비밀번호를 입력해주세요."/>
-                <!-- <div class="pwd__box"></div> -->
             </div>
         </div>
         <div class="button__box">
-            <button class="signup__button" onclick= "location.href='./signup.html'">회원가입</button>
-            <button class="login__button">로그인</button>
+            <button type=button class="signup__button" onclick= "goSignup()">회원가입</button>
+            <button type="button" class="login__button" onclick="goMain()">로그인</button>
         </div>
-    </section>
+    </form>
 </body>
 </html>
