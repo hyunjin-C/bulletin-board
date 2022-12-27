@@ -5,23 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>게시판 만들기</title>
-    <link rel="stylesheet" href="./styles/header.css"/>
-    <link rel="stylesheet" href="./styles/mainLayout.css"/>
-    <script src="./src/main.js" defer></script>
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/mainLayout.css"/>
+    <!-- js -->
+    <script src="../src/main.js" defer></script>
 </head>
 <body>
     <header class="header">
         <div class="header__logo">
             <a href="">Dev blog</a>
         </div> 
-        <button class="login__button" onclick="goLogin()">로그인</button>
+        <div class="header__button">
+            <button class="login__button" onclick="goHome()">로그아웃</button>
+            <button class="mypage__button" onclick="goMypage()">마이페이지</button>
+        </div>
     </header>
 
     <p class="list">게시판 목록</p>
     
     <section class="posters">
         <li class="poster">
-            <img src="./images/img1.jpg" alt="image1.png">
+            <img src="../images/img1.jpg" alt="image1.png">
             <div class="poster__box">
                 <span class="by">by<span class="writer">name1</span></span>
                 <div class="title">title1</div>
@@ -30,7 +35,7 @@
             
         </li>
         <li class="poster">
-            <img src="./images/img2.jpg" alt="image2">
+            <img src="../images/img2.jpg" alt="image2">
             <div class="poster__box">
                 <span class="by">by<span class="writer">name2</span></span>
                 <div class="title">title2</div>
@@ -38,7 +43,7 @@
             </div>
         </li>
         <li class="poster">
-            <img src="./images/img3.jpg" alt="image3">
+            <img src="../images/img3.jpg" alt="image3">
             <div class="poster__box">
                 <span class="by">by<span class="writer">name3</span></span>
                 <div class="title">title3</div>

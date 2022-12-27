@@ -28,6 +28,16 @@ a {
 .login__button {
     font-size: 15px;
     padding: 7px 12px;
+    margin: 5px;
+    border-radius: 10%;
+    border: none;
+    background-color: #e8c2ca;
+}
+
+.mypage__button {
+    font-size: 15px;
+    padding: 7px 12px;
+    margin: 5px;
     border-radius: 10%;
     border: none;
     background-color: #e8c2ca;

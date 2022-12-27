@@ -1,17 +1,17 @@
-.login__form {
+.login__form, .signup__form {
     margin: 100px auto;
     width: 500px;
     display: flex;
     flex-direction: column;
 }
 
-.login__text {
+.login__text, .signup__text {
     text-align: center;
     margin-bottom: 50px;
     font-size: 25px;
 }
 
-.login {
+.login, .signup {
     border: 2px solid black;
     margin: 50px auto;
     padding-top: 100px;
@@ -20,18 +20,13 @@
     max-height: 500px;
 }
 
-.id, .pwd {
+.id, .pwd, .name{
     padding: 20px;
     margin: auto;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
     width: 300px;
-}
-
-.id__box, .pwd__box {
-    border: 1px solid black;
-    width: 200px;
 }
 
 .button__box {
@@ -48,8 +43,19 @@
 .signup__button {
     font-size: 15px;
     padding: 7px 12px;
+    margin: 5px;
     border-radius: 10%;
     border: none;
     background-color: #ced4da;
+    width: 100px;
+}
+
+.signup-done__button {
+    font-size: 15px;
+    padding: 7px 12px;
+    margin: auto;
+    border-radius: 10%;
+    border: none;
+    background-color: #b2c9ab;
     width: 100px;
 }
