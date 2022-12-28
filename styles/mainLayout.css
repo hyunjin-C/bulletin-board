@@ -25,6 +25,7 @@
 
 .poster__box {
     padding: 30px;
+    max-width: inherit; 
 }
 
 .by {
@@ -42,9 +43,11 @@
 .title {
     padding: 5px;
     font-size: 27px;
+    word-break: break-all;
 }
 
 .contents {
     padding: 5px;
     font-size: 16px;
+    word-break: break-all;
 }

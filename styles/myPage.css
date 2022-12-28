@@ -1,0 +1,75 @@
+.mypage__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 1000px;
+}
+
+.info {
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 3px inset #c6d2ed;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.my__info {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.my__name {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.my__id {
+    font-size: 15px;
+}
+
+.my__listbox {
+    background-size: cover;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.my__list {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.my__posting {
+    margin: auto;
+    padding: 10px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.my__title {
+    width: 200px;
+    word-break: break-all;
+    text-align: start;
+}
+
+.my__contents {
+    width: 500px;
+    word-break: break-all;
+    text-align: start;
+}
+
+.login__button {
+    width: 100px;
+    background-color: #ced4da;
+    margin: auto;
+}

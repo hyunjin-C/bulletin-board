@@ -18,6 +18,11 @@ function goMypage() {
   location.href = link;
 }
 
+function goUploadpage() {
+  let link = "./uploadPage.html";
+  location.href = link;
+}
+
 function goLogin() {
   let link = "./pages/login.html";
   location.href = link;

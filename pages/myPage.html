@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 만들기</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/mainLayout.css"/>
+    <link rel="stylesheet" href="../styles/myPage.css"/>
+    <!-- js -->
+    <script src="../src/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="">Dev blog</a>
+        </div> 
+        <div class="header__button">
+            <button class="mypage__button" onclick="goUploadpage()">글 작성하기</button>
+        </div>
+    </header>
+
+    <p class="list">마이페이지</p>
+    <section class="mypage__form">
+        <div class="info">
+            <!-- <div class="my__info">내정보</div> -->
+            <div class="my__name">최현진</div>
+            <div class="my__id">abcd1234</div>
+            <div class="posting__count"></div>
+        </div>
+        <button type="button" class="login__button" onclick="goHome()">로그아웃</button>
+        <div class="my__listbox">
+            <div class="my__list">글 목록</div>
+            <!-- 작성한 글이 없으면 '작성한 글이 없습니다.' -->
+            <div class="my__posting">
+                1
+                <div class="my__title">title1</div>
+                <div class="my__contents">djsjrejwrerjwrerjwrnffkewlrkerwel</div>
+                <button class="delete__button">삭제</button>
+            </div>
+            <div class="my__posting">
+                2
+                <div class="my__title">title2</div>
+                <div class="my__contents">djsjrejwrewrjwrerjwrnffkewlrkerwel</div>
+                <button class="delete__button">삭제</button>
+            </div>
+            <div class="my__posting">
+                3
+                <div class="my__title">title3</div>
+                <div class="my__contents">djsjrejwrewrjwrerjwrnffkewlrkerwel</div>
+                <button class="delete__button">삭제</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
