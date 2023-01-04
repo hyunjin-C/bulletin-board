@@ -73,3 +73,19 @@
     background-color: #ced4da;
     margin: auto;
 }
+
+.modify__button {
+    border-radius: 10%;
+    border: none;
+    background-color: gray;
+    color: whitesmoke;
+    padding: 5px 10px;
+}
+
+.delete__button {
+    border: none;
+    padding: 5px 10px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10%;
+}

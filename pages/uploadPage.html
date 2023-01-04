@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 만들기</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/textEditor.css"/>
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css"/>
+    <!-- js -->
+    <script src="../src/main.js" defer></script>
+    <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+    <script type="module" src="../src/textEditor.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="">Dev blog</a>
+        </div> 
+        <div class="header__button">
+            <button class="login__button" onclick="goUploadpage()">글 작성하기</button>
+            <button class="mypage__button" onclick="goMypage()">마이페이지</button>
+        </div>
+    </header>
+    <div class="editor__title">
+        제목
+        <input type=text name="title" class="title__input" placeholder="제목을 입력해주세요"/>
+    </div>
+    <div id="editor"></div>
+</body>
+</html>
