@@ -23,6 +23,11 @@ function goUploadpage() {
   location.href = link;
 }
 
+function goDetailpage() {
+  let link = "./detailPage.html";
+  location.href = link;
+}
+
 function goLogin() {
   let link = "./pages/login.html";
   location.href = link;
@@ -31,4 +36,12 @@ function goLogin() {
 function goSignup() {
   let link = "./signup.html";
   location.href = link;
+}
+
+// 게시판 목록에 내용 글자 수 제한
+const maxlength = 100;
+function handleOnInput(el) {
+  if (el.value.length > maxlength) {
+    el.value = el.value.substr(0, maxlength);
+  }
 }

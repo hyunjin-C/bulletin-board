@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판 만들기</title>
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/header.css"/>
+    <link rel="stylesheet" href="../styles/detailLayout.css"/>
+    <!-- js -->
+    <script src="../src/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="">Dev blog</a>
+        </div> 
+        <div class="header__button">
+            <button class="login__button" onclick="goUploadpage()">글 작성하기</button>
+            <button class="mypage__button" onclick="goMypage()">마이페이지</button>
+        </div>
+    </header>
+    <div class="bulletin">
+        <h1>안녕하세요</h1>
+        <div class="information">
+            <div class="writter">by 최현진</div>
+            <div>
+                <button type="button" class="btn">수정</button>
+                <button type="button" class="btn">삭제</button>
+            </div>
+        </div>
+        <hr>
+        <div class="bulletin__contents">
+            최초엔 '온라인 게시판'이라고 불리었으나 인터넷이 일상화되면서 점차 온라인이라는 글자가 떨어지고 그냥 게시판이라고 불리게 되었다. BBS라고 부르기도 했지만 요즘은 잘 쓰지 않는 단어. 요즈음은 잘 줄여 부른다. 자유 게시판=자게, 스크린샷 게시판=스게 등등.
+            디시인사이드에서는 게시판 대신에 갤러리라는 말을 쓴다. 원래는 사진을 공유하는 기능을 하였기 때문에 갤러리라고 불리던 것이 오늘날까지도 남아있는 것이다.
+            익명으로 사용할 수 있는 게시판을 익명게시판이라고 한다.
+            과거 개인 홈페이지 열풍이 불었을 때는 설치형 게시판 및 서비스형 게시판이 굉장히 많이 나왔으나, 열풍이 꺼지고 난 뒤에는 거의 대부분이 자취를 감추고 일부만 살아남은 상태. 2010년대에도 운영하고 있었던 블루CGI도 추가 게시판 신청을 중단한 상태이다. 컴내꺼는 개인 홈페이지를 참고하면 알겠지만 공지없이 망했고 우뜨넷도 신규 가입을 중단했다. 과거에 유명했던 슈퍼보드는 2010년대에 망해서 사라졌다. 2021년 기준으로 디시인사이드 마이너 갤러리, 디시인사이드 미니 갤러리, 루리웹 유저 게시판를 제외한 서비스형 게시판은 사실상 전멸한 상태이다.
+            한국의 인터넷 게시판은 외국과는 상당히 다른 방향으로 발전한 것이 특징이다. 외국에는 포럼(forum)이라는 형태의 게시판이 발전했지만, 한국은 PC통신 시절부터 쓰던 게시판 형태가 큰 변화없이 인터넷으로 넘어온 것이 특징이다. 이 때문에 외국산 CMS가 국내에서 크게 발전하지 못하는 큰 이유가 되기도 한다.
+        </div>
+    </div>
+</body>
+</html>
